@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Paleta:
+#265C4B / #146551 / #007566 / #589A8D / #8FC1B5
+*/
+
+body {
+    background-image: linear-gradient(to right, #8FC1B5, #589A8D );
+}
+
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #007566;
+    text-shadow: #02534970;
+}
+
+h1 {
+    color: #007566;
+    text-shadow: #03494071;
+    text-align: center;
+}
+
+p {
+    color: #035a4e;
+    text-shadow: #035a4e75 ;
+}
