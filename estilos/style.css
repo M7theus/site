@@ -1,31 +1,33 @@
 @charset "UTF-8";
 
 /* Paleta:
-#265C4B / #146551 / #007566 / #589A8D / #8FC1B5
+https://coolors.co/44af69-2b9eb3-ff784f-a22522-241023
 */
 
 body {
-    background-image: linear-gradient(to right, #8FC1B5, #589A8D );
+    background-image: linear-gradient(to right, #2B9EB3, #1d6a77 );
 }
 
-
-main {
+main{
+    margin:auto;
     background-color: white;
-    margin: auto;
-    width: 900px;
+    width: 600px;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px #007566;
-    text-shadow: #02534970;
+    box-shadow: 3px 3px 5px black;
 }
+
+div#contato{
+    height: 55px;
+    background-color: rgba(240, 128, 128, 0.185);
+    border: 1px solid black;
+    font-size: 1.5em;
+    text-indent: 30px;
+}
+
 
 h1 {
     color: #007566;
     text-shadow: #03494071;
     text-align: center;
-}
-
-p {
-    color: #035a4e;
-    text-shadow: #035a4e75 ;
 }
