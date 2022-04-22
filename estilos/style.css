@@ -42,29 +42,49 @@ nav > a > img{
 main{
     background-color: white;
     padding: 10px;
-    border: center;
+    border: 0px;
     margin: 10px;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.479);
     border-radius: 20px 0px;
-    display: inline-block;
     
 }
 
-main > section > article > a > img{
+section{
+    display: inline-block;
+    margin: 0px;
+}
+
+#python{
     height: 200px;
     width: 200px;
     padding: 1px;
-    border: 1px solid rgba(0, 0, 0, 0.26);
-
+    box-shadow: 1px solid rgba(0, 0, 0, 0.26);
+    border: 1px solid black;
+    margin: 18px auto;
+    display: block;
 
 }
 
-main > section > h4{
+#python2{
     font-weight: 500;
     font-size: 20px;
     font-style: normal;
+    text-align: center;
+    margin: 0px;
+}
+
+.centro{
+    margin-left: 30px;
 }
 
 .fotos:hover{
     background-color: rgba(128, 128, 128, 0.212);
+}
+
+#html{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    margin-left: 30px;
 }
