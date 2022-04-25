@@ -11,12 +11,10 @@ body {
 
 
 header{
-    background-color: white;
+    background-color: rgb(250, 245, 245);
     padding: 10px;
-    margin: 10px;
-    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.479);
+    margin:0px;
     border:center;
-    border-radius: 20px 0px;
 }
 
 header > h1{
@@ -28,24 +26,38 @@ header > h1{
     text-shadow: 1px 1px 1px #1f462c27;
 }
 
-nav{
-    background-color: rgba(211, 211, 211, 0.377);
-    padding: 10px;
-    margin:auto;
+body > header > nav > div > p{
+    display: none;
+}
+
+body > header > nav > div:hover > p{
+    display: block;
+    color: wheat;
 
 }
 
-nav > a > img{
-    width: 28px;
+nav{
+    background-color: rgba(211, 211, 211, 0.212);
+    padding: 10px;
+    margin:auto;
+    margin-top: 20px;
+
+}
+
+nav > a{
+   padding: 10px;
+   text-decoration: none;
+}
+
+nav > a:hover{
+    color: rgba(128, 128, 128, 0.459);
 }
 
 main{
     background-color: white;
     padding: 10px;
-    border: 0px;
-    margin: 10px;
-    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.479);
-    border-radius: 20px 0px;
+    margin: 0px;
+    margin: 0px 20px;
     
 }
 
