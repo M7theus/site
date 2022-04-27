@@ -26,14 +26,9 @@ header > h1{
     text-shadow: 1px 1px 1px #1f462c27;
 }
 
-body > header > nav > div > p{
-    display: none;
-}
 
-body > header > nav > div:hover > p{
-    display: block;
-    color: wheat;
-
+header > nav > div > a{
+    text-decoration: none;
 }
 
 nav{
