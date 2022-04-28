@@ -1,82 +1,30 @@
 @charset "UTF-8";
 
-/* Paleta:
-https://coolors.co/44af69-2b9eb3-ff784f-a22522-241023
-*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-body {
-    background-image: linear-gradient(to right, #2B9EB3, #19535e );
+*{
     margin: 0px;
+    padding: 0px;
 }
 
+:root{
+    --cor0: #e6f99d;
+    --cor1: #c8e98e;
+    --cor2: #7fda89;
+    --cor3: #259073;
+    --cor4: #041122;
 
+    --fonte-principal: 'Indie Flower', cursive;
+}
 
 header{
-   background-image: linear-gradient(to right, #ffffff, #e4dedecb);
-    padding: 20px;
-    margin:0px;
-    border:center;
-    border-radius: 0px 0px 20px 20px;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
 }
 
-.formatacao{
-    margin: 0px;
-    text-align: center;
-    background-color: rgba(240, 128, 128, 0.274);
-    font-size: 25px;
-    padding: 5px;
-}
-
-header > h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    font-weight: 600;
-    color: #225233;
-    text-shadow: 1px 1px 1px #1f462c27;
-    margin: 0px;
-    padding: 3px;
-}
-
-
-header > nav > div > a{
-    text-decoration: none;
+header > h1,p{
+    font-family: var(--fonte-principal);
 }
 
 nav{
-    background-color: rgba(211, 211, 211, 0.212);
-    padding: 10px;
-    margin:auto;
-    margin-top: 20px;
-
-}
-
-nav > a{
-   padding: 10px;
-   text-decoration: none;
-}
-
-nav > a:hover{
-    color: rgba(128, 128, 128, 0.459);
-}
-
-main{
-    background-color: white;
-    padding: 0px;
-    margin: 0px 20px;
-    
-}
-
-.html{
-    display: inline-block;
-    padding: 20px;
-    margin: 0px;
-}
-
-.foto{
-    display: inline;
-    height: 200px;
-    width: 200px;
-    padding: 7px;
-    border: 1px solid black;
+    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
 }
