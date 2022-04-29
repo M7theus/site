@@ -50,3 +50,9 @@ nav > a:hover{
     border-radius: 10px;
     background-color: #7fda89;
 }
+
+
+
+main{
+    background-color: var(--cor2);
+}
