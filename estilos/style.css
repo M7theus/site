@@ -1,58 +1,45 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+:root{
+    --cor0: #0FC2C0;
+    --cor1: #0CABA8;
+    --cor2: #008F8C;
+    --cor3: #015958;
+    --cor4: #023535;
+
+}
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
-:root{
-    --cor0: #e6f99d;
-    --cor1: #c8e98e;
-    --cor2: #7fda89;
-    --cor3: #259073;
-    --cor4: #041122;
-
-    --fonte-principal: 'Indie Flower', cursive;
-}
-
 header{
-    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
 }
 
-header > h1,p{
-    font-family: var(--fonte-principal)
-}
-
-header > h1{
-    font-size: 40px;
+header h1{
     text-align: center;
-}
-
-header > p{
-    font-size: 20px;
-    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 15px 0px;
 }
 
 nav{
-    background-image: linear-gradient(to right, var(--cor0), var(--cor1));
-    padding: 10px 0px 2px 6px
+    background-color: var(--cor3);
+    padding: 13px;
 }
 
-nav > a{
-    padding: 4px;
+nav a{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 5px;
     text-decoration: none;
 }
 
-nav > a:hover{
-    border: 1px solid rgba(0, 0, 0, 0.212);
-    border-radius: 10px;
-    background-color: #7fda89;
-}
-
-
-
-main{
+nav a:hover{
     background-color: var(--cor2);
+    border-radius: 2px;
+    color: var(--cor3);
+    text-decoration: underline;
 }
