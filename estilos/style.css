@@ -16,6 +16,7 @@
 
 header{
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+    min-height: 100px;
 }
 
 header h1{
