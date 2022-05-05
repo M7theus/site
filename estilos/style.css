@@ -25,6 +25,7 @@
     --paragrafo: 'computer', calibre;
 }
 
+
 body{
     background-color: var(--cor3);
 }
@@ -76,10 +77,10 @@ nav a:hover{
 
 main{
     background-color: white;
-    max-width: 850px;
+    max-width: 950px;
     min-width: 320px;
     margin: auto;
-    padding: 10px;
+    padding: 15px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -112,4 +113,17 @@ main a{
 main a:hover{
     background-color: var(--cor3);
     transition: 1s;
+}
+
+img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+footer{
+    padding: 2px;
+    margin-top: 15px;
+    background-color: var(--cor4);
 }
