@@ -116,10 +116,15 @@ main a:hover{
 }
 
 img{
-    max-width: 300px;
+    max-width: 350px;
     display: block;
     margin: auto;
     padding: 20px;
+}
+
+.video{
+    background-color: #395C6B;
+    padding: 0px;
 }
 
 footer{
@@ -127,3 +132,4 @@ footer{
     margin-top: 15px;
     background-color: var(--cor4);
 }
+
