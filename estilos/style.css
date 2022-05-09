@@ -30,13 +30,13 @@
 }
 
 
-/* Corpo */
+/* Body */
 body{
     background-color: var(--cor3);
 }
 
 
-/* Cabeça */
+/* Header */
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
     min-height: 100px;
@@ -61,7 +61,7 @@ header p{
 }
 
 
-/* Navegação */
+/* Nav */
 nav{
     padding: 20px 0px 10px 10px;
     background-color: var(--cor0);
@@ -140,11 +140,41 @@ img{
     background-color: #395C6B;
     margin-left: -15px;
     margin-right: -15px;
+    position: relative;
+    padding-bottom: 58%;
 }
 
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/* Aside */
+aside{
+    margin-top: 20px;
+}
+
+aside > h3{
+    background-color: var(--cor0);
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+aside > ul{
+    background-color: var(--cor1);
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Footer */
 footer{
     padding: 2px;
     margin-top: 15px;
     background-color: var(--cor4);
 }
-
