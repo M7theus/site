@@ -33,6 +33,7 @@
 /* Body */
 body{
     background-color: var(--cor3);
+    font-family: var(--corpo);
 }
 
 
@@ -79,8 +80,8 @@ nav a{
 nav a:hover{
     background-color: var(--cor2);
     border: 1px solid black;
-    border-radius: 10px;
-    transition: 0.5s;
+    border-radius: 1px;
+    transition: 1s;
 }
 
 
